@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box; 
+}
+
+h1 {
+color : black;
+text-align: center;
+margin-bottom: 25px;
+}
+
+.item_container {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 1px solid black;
+	background-color: #efeff5;
+	height: 250px ;
+
+}
+
+.items {
+	
+
+}
+/* set each item and its menu*/
+.menu_item {
+	clear : left;
+	border:1px solid black;
+	position: relative;
+	left: 70%;
+	width : 30%;
+    text-align: center;
+}
+.content {
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#item_01_menu{
+	background-color: #66ffcc;
+
+}
+#item_02_menu{
+	background-color: #cc99ff;
+
+}
+#item_03_menu{
+	background-color: #ffff99;
+
+}
+
+div.footer {
+	font-size: 0.7em;
+}
+.row {
+	width : 100%;
+}
+
+p {
+	overflow-x: auto;
+	height: 150px;
+	
+}
+/*LG: large size style for desktop */
+@media (min-width: 992px) {
+	.col-LG-1, .col-LG-2,.col-LG-3,.col-LG-4,.col-LG-5,.col-LG-6,.col-LG-7,.col-LG-8,.col-LG-9,.col-LG-10,.col-LG-11,.col-LG-12
+	{
+		float: left;
+	}
+	.col-LG-1 {
+		width : 8.33%;
+	}
+	.col-LG-2 {
+		width : 16.66%;
+	}.col-LG-3 {
+		width : 25%;
+	}.col-LG-4 {
+		width : 33%;
+	}.col-LG-5 {
+		width : 41.66%;
+	}.col-LG-6 {
+		width : 50%;
+	}.col-LG-7 {
+		width : 58.33%;
+	}.col-LG-8 {
+		width : 66.66%;
+	}.col-LG-9 {
+		width : 75%;
+	}.col-LG-10 {
+		width : 83.33%;
+	}.col-LG-11 {
+		width : 91.66%;
+	}.col-LG-12 {
+		width : 100%;
+	}
+
+}
+
+/*MD: middle size style for tablet */
+@media (max-width: 991px) and (min-width: 768px) {
+	.col-MD-1, .col-MD-2,.col-MD-3,.col-MD-4,.col-MD-5,.col-MD-6,.col-MD-7,.col-MD-8,.col-MD-9,.col-MD-10,.col-MD-11,.col-MD-12
+	{
+		float: left;
+		
+
+	}
+	.col-MD-1 {
+		width : 8.33%;
+	}
+	.col-MD-2 {
+		width : 16.66%;
+	}.col-MD-3 {
+		width : 25%;
+	}.col-MD-4 {
+		width : 33%;
+	}.col-MD-5 {
+		width : 41.66%;
+	}.col-MD-6 {
+		width : 50%;
+	}.col-MD-7 {
+		width : 58.33%;
+	}.col-MD-8 {
+		width : 66.66%;
+	}.col-MD-9 {
+		width : 75%;
+	}.col-MD-10 {
+		width : 83.33%;
+	}.col-MD-11 {
+		width : 91.66%;
+	}.col-MD-12 {
+		width : 100%;
+	}
+
+}
+/*SM: small size style for cellphone */
+@media (max-width: 767px)  {
+	.col-SM-1, .col-SM-2,.col-SM-3,.col-SM-4,.col-SM-5,.col-SM-6,.col-SM-7,.col-SM-8,.col-SM-9,.col-SM-10,.col-SM-11,.col-SM-12
+	{
+		float: left;
+		
+	}
+	.col-SM-1 {
+		width : 8.33%;
+	}
+	.col-SM-2 {
+		width : 16.66%;
+	}.col-SM-3 {
+		width : 25%;
+	}.col-SM-4 {
+		width : 33%;
+	}.col-SM-5 {
+		width : 41.66%;
+	}.col-SM-6 {
+		width : 50%;
+	}.col-SM-7 {
+		width : 58.33%;
+	}.col-SM-8 {
+		width : 66.66%;
+	}.col-SM-9 {
+		width : 75%;
+	}.col-SM-10 {
+		width : 83.33%;
+	}.col-SM-11 {
+		width : 91.66%;
+	}.col-SM-12 {
+		width : 100%;
+	}
+	
+}
